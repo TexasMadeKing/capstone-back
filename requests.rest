@@ -1,11 +1,11 @@
-GET http://localhost:5000/task
+GET https://task-appt.herokuapp.com/task
 
 ###
-POST http://localhost:5000/task
+POST https://task-appt.herokuapp.com/task
 Content-Type: application/json
 
 {
-    "title": "My first task",
-    "description": "This is my first task",
+    "title": "My second task",
+    "description": "This is my second task",
     "done": false
 }
