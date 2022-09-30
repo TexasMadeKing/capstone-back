@@ -1,0 +1,11 @@
+GET http://localhost:5000/task
+
+###
+POST http://localhost:5000/task
+Content-Type: application/json
+
+{
+    "title": "My first task",
+    "description": "This is my first task",
+    "done": false
+}
